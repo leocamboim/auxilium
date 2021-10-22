@@ -1,11 +1,13 @@
-import React from 'react';
 import Navbar from '../../components/Navbar';
+import { Container } from './styles';
 
 export default function QuemSomos(){
     return (
         <>            
             <Navbar />
-            <p>Quem somos?</p>
+            <Container>
+                <p>QUEM NOIS EH</p>
+            </Container>
         </>
     )
 } 

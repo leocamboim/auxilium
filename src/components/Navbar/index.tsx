@@ -16,38 +16,22 @@ const Navbar: React.FC = () => {
       <ul>
         <li>
           <Link to="/" className="LinkNav">
-            Início
+            Home
           </Link>
         </li>
         <li>
           <Link to="/quemsomos" className="LinkNav">
-            Quem somos?
+            Quem Somos
           </Link>
         </li>
         <li>
-          <Link to="/segmentos" className="LinkNav">
-            Segmentos
-          </Link>
-        </li>
-        <li>
-          <Link to="/criancas" className="LinkNav">
-            Crianças
-          </Link>
-        </li>
-        <li>
-          <Link to="/desejos" className="LinkNav">
-            Desejos
+          <Link to="/explore" className="LinkNav">
+            Explore 
           </Link>
         </li>
         <li>
           <Link to="/cadastro" className="LinkNav">
-            Cadastro
-          </Link>
-        </li>
-        <li>
-          <Link to="/login" className="LinkNav">
-
-          <FontAwesomeIcon className="option-icon" icon={faUser}/>
+            Entrar <FontAwesomeIcon className="option-icon" icon={faUser}/>
          </Link>
         </li>
       </ul>    

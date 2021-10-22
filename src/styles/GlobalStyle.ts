@@ -19,8 +19,8 @@ export default createGlobalStyle`
     *, button, input{
         border: 0;
         outline: 0;
-
-        font-family: 'Roboto', sans-serif; 
+        font-family: 'Amatic SC', cursive;
+        /* font-family: 'Roboto', sans-serif;  */
     }
 
     ul, li{
@@ -28,10 +28,11 @@ export default createGlobalStyle`
     }
 
     :root {
-        --primary: #1984B6;
-        --secondary: #2f3136;
-        --tertiary: rgb(32,34,37);
-        --quaternary: #292b2f;
+        --primary: #3B454A;
+        --primary-darker: rgba(59,69,74,.96);
+        --secondary: #42bde4;
+        --tertiary: #E35981;
+        --quaternary: #E3D62B;
         --quinary: #393d42;
         --senary: #828386;
     
@@ -40,7 +41,7 @@ export default createGlobalStyle`
         --chat-input: rgb(64,68,75);
         --symbol: #74777a;
     
-        --notification: #f84a4b;
+        --notification: #D33A4B;
         --discord: #6e86d6;
         --mention-detail: #f9a839;
         --mention-message: #413f3f;
