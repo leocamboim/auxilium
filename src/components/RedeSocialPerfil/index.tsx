@@ -1,5 +1,5 @@
 
-import { CardInfoPerfil, Facebook, Instagram, Input, Container } from './styles';
+import { CardInfoPerfil, Facebook, Instagram, Input, Container, Button } from './styles';
 
 const RedeSocialPerfil: React.FC = () => {
     
@@ -11,15 +11,16 @@ const RedeSocialPerfil: React.FC = () => {
                     <Input
                         type="text"
                         placeholder="Leo Camboim"
-                    />
-                </Container>
-                <Container>    
+                    />  
                     <Instagram />
                     <Input
                         type="text"
                         placeholder="@leo__camboim"
                     />
                 </Container>
+                <Button>
+                    Confirmar!
+                </Button>
             </CardInfoPerfil>
         </>
     )

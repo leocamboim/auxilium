@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const CardInfoPerfil = styled.div`
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: center;
     
     background-color: var(--primary);
     width: 50vw;
@@ -12,116 +12,55 @@ export const CardInfoPerfil = styled.div`
     border-radius: 10px;
     
     box-shadow: 2px 7px 8px 2px rgba(0,0,0,0.5);
-`
 
-export const  Profile = styled.div`
-    display: flex;
-`
-
-export const Foto = styled.div`
-    width: 125px;
-    height: 125px;
-    border-radius: 50%;
-
-    background-color: var(--gray);
-`
-
-export const  UserData = styled.div`
-    margin-left: 15px;
-
-    display: flex;
-    flex-direction: column;
-
-    > strong {
+    span {
+        font-size: 25px;
+        font-weight: 600;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         color: var(--white);
-        font-size: 30px;
-        display: block;
-    }
-
-    > span {
-        color: var(--gray);
-        font-size: 13px;
-    }
-`
-
-
-export const  Bio = styled.div`
-    margin-top: 10px;
-
-    display: flex;
-    flex-direction: column;
-
-    > strong {
-        color: var(--white);
-        font-size: 30px;
-        display: block;
-    }
-
-    > span {
-        color: var(--gray);
-        font-size: 16px;
     }
 `
 
 export const  Info = styled.div`
     display: flex;
-    justify-content: space-between;    
+    /* flex-direction: column; */
     margin-top: 10px;
 `
 
-export const  Email = styled.div`
-    display: flex;
-    flex-direction: column;
+export const Input = styled.input`
+    width: 100%;
+    height: 6rem;
 
-    > strong {
-    color: var(--white);
-    font-size: 17px;
-    display: block;
-    }
+    padding: 0.5rem;     
+    margin: 0.5rem;
 
-    > span {
-    color: var(--gray);
-    font-size: 15px;
-    }
+    opacity: .9;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    border-radius: 3px;
+    box-shadow: 1px 4px 5px 1px rgba(0,0,0,0.5);
 
 `
 
-export const  Tel = styled.div`
-    display: flex;
-    flex-direction: column;
-
-    > strong {
+export const Button = styled.button`  
+    width: 15rem;
+    height: 5rem;
+    
     color: var(--white);
-    font-size: 17px;
-    display: block;
-    }
+    font-weight: bold;
+    background-color:var(--secondary);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    border-radius: 0.3rem;
+    padding: 0.5rem;     
+    margin: 0.5rem;
+    border-radius: 3px;
+    box-shadow: 1px 4px 5px 1px rgba(0,0,0,0.5);
 
-    > span {
-    color: var(--gray);
-    font-size: 15px;
-    }
-`
-
-export const Data = styled.div`
-    display: flex;
-    flex-direction: column;
-
-    > strong {
-    color: var(--white);
-    font-size: 17px;
-    display: block;
-    }
-
-    > span {
-    color: var(--gray);
-    font-size: 15px;
-    }
-`
-
-export const Edit = styled.div`
-    color: var(--white);
-    font-size: 17px;
-    margin-left: auto;
-
+    transition: ease-in 0.3s;
     cursor: pointer;
-`
+
+    &:hover{
+        opacity: .7;
+    }
+` 
