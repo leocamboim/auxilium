@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import Navbar from '../../components/Navbar';
-import { Card, Container } from './styles';
+import { Container } from './styles';
 
 const Explore: React.FC = () => {
     const [cards, setCards] = useState([] as JSX.Element[]);
@@ -33,14 +34,14 @@ const Explore: React.FC = () => {
 
         for (let i = 0; i < metas.length; i++) {
             const meta = metas[i] as any;
-            cards.push(<Card href={'/inst/' + meta.id}>
+            cards.push(<Link className="Card" to={'/inst/' + meta.id}>
                 <h1>{meta.nome}</h1>
                 <p>
                     <span>{meta.local}</span>
                     <strong>{meta.tel}</strong>
                     <span>Arrecadado: <strong>{meta.arrecadacao.toFixed(2).replace('.', ',')}</strong> R$</span>
                 </p>
-            </Card>);
+            </Link>);
         }
         setCards(cards);
     };

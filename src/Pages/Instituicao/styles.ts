@@ -38,8 +38,8 @@ export const About = styled.div`
 
     background-color: var(--primary-darker);
 
-    padding: 15px 20px;
-    text-align: center;
+    padding: 25px 30px;
+    text-align: justify;
 
     h1, p {
         color: var(--white);
@@ -51,7 +51,7 @@ export const About = styled.div`
     }
     
     p {
-        font-size: 28px;
+        font-size: 24px;
     }
 `
 
