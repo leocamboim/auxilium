@@ -1,4 +1,4 @@
-export async function createInst (inst: Object) {
+export async function createInst(inst: Object) {
     await fetch("http://localhost:3333/inst", {
         method: 'POST',
         cache: 'no-cache',

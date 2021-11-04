@@ -27,6 +27,10 @@ export default createGlobalStyle`
         list-style: none;
     }
 
+    a {
+        text-decoration: none;
+    }
+
     :root {
         --primary: #3B454A;
         --primary-darker: rgba(59,69,74,.96);

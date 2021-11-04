@@ -1,4 +1,4 @@
-import { faAt, faKey, faMapMarked, faPlusCircle, faPowerOff, faSimCard, faUser, faUserEdit } from '@fortawesome/free-solid-svg-icons';
+import { faAt, faKey, faMapMarked, faPlusCircle, faPowerOff, faSimCard, faUser } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useState } from 'react';
 import CardPerfil from '../../components/CardPerfil';
@@ -65,7 +65,6 @@ const Perfil: React.FC = () => {
                             return <InstituicaoPerfil />
                         default:
                             return <CardPerfil />
-                            break;
                     }
                 })()}
             </Wrap>

@@ -10,7 +10,7 @@ export const Container = styled.div`
     align-content: center;
 `
 
-export const Card = styled.div`
+export const Card = styled.a`
     width: 45vw;
     height: 35rem;
     
@@ -44,8 +44,6 @@ export const Card = styled.div`
     span {
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
-
-    cursor: pointer;
 
     transition: ease-in .5s;
     

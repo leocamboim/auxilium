@@ -11,7 +11,7 @@ const Navbar: React.FC = () => {
   return (
     <Container>
       <Logo>
-            <img src={Auxilium} />
+            <img src={Auxilium} alt="auxilium"/>
       </Logo>
       <ul>
         <li>

@@ -1,9 +1,6 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChild, faUniversity } from '@fortawesome/free-solid-svg-icons';
 import { useState, FormEvent } from 'react';
 import Navbar from '../../components/Navbar';
 import { Container, Form, Input, Button, Title, Login, Wrap } from './styles';
-import { useEffect } from 'react';
 import { useHistory } from 'react-router-dom';
 import { createUser } from '../../services/UserService';
 
@@ -21,8 +18,7 @@ const Cadastro: React.FC = () => {
     const [cep, setCep] = useState('');
 
     const history = useHistory();
-    const [errorMsg, setErrorMsg] = useState('');
-
+    
     // useEffect(() => {
     //     if (tipoPessoa !== 0) {
     //         hideForm()
@@ -34,9 +30,8 @@ const Cadastro: React.FC = () => {
         event.preventDefault();
         const values = [
             // tipoPessoa,
-             name, email, password, password2, cpf, cep];
-        let errorMsg = '';
-
+            name, email, password, password2, cpf, cep];
+       
         const allFildsFilled = values.every((field) => {
             const value = `${field}`.trim();
             return value !== '' && value !== '0';
@@ -56,11 +51,8 @@ const Cadastro: React.FC = () => {
             } catch (ex) {
                 console.error(ex);
             }
-        } else {
-            errorMsg = 'Preencha todos os campos do formulário!';
         }
         history.push('/perfil');
-        setErrorMsg(errorMsg);
     }
 
     // function hideForm() {
