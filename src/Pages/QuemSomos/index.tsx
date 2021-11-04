@@ -6,7 +6,7 @@ export default function QuemSomos(){
         <>            
             <Navbar />
             <Container>
-                <p>QUEM NOIS EH</p>
+                
             </Container>
         </>
     )
