@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import katarina from "../../assets/katarina.jpg";
+import espm from "../../assets/espm.png";
 
 export const Container = styled.div`
   height: 100%;
@@ -13,7 +13,7 @@ export const Container = styled.div`
     width: 45vw;
     height: 35rem;
 
-    background-image: url(${katarina});
+    background-image: url(${espm});
     opacity: 0.85;
     /* background-color: var(--primary-darker); */
     display: flex;

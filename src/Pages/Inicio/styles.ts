@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { HomeHeart } from "styled-icons/boxicons-solid";
 import { HandHoldingUsd, Users } from "styled-icons/fa-solid";
-import katarina from '../../assets/katarina.jpg'; 
+import family from '../../assets/family.jpg'; 
 
 export const Container = styled.div`
     display: flex;
@@ -12,7 +12,7 @@ export const Container = styled.div`
 export const Opacity = styled.div`
     width: 100%;
     height: 55vh;
-    background-image: url(${katarina});
+    background-image: url(${family});
     /* background-color: var(--primary-darker); */
     
     display: flex;

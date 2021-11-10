@@ -21,6 +21,12 @@ export default function QuemSomos() {
                     <span>
                         Quer assumir o compromisso de acompanhar, orientar e apoiar a educação de uma criança ou adolescente, criando um vínculo pessoal?
                     </span>
+                    <form action="https://pagseguro.uol.com.br/checkout/v2/donation.html" method="post">
+                        <input type="hidden" name="currency" value="BRL" />
+                        <input type="hidden" name="receiverEmail" value="leomestrex@gmail.com" />
+                        <input type="hidden" name="iot" value="button" />
+                        <input type="image" src="https://stc.pagseguro.uol.com.br/public/img/botoes/doacoes/120x53-doar-azul.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
+                    </form>
                 </Tipo>
 
                 <Tipo theme={{ main: "var(--tertiary)" }}>
@@ -28,6 +34,12 @@ export default function QuemSomos() {
                     <span>
                         Quer doar algum bem material ou Dinheiroque possa ser necessário a uma criança ou adolescente ou a toda uma instituição de acolhimento?
                     </span>
+                    <form action="https://pagseguro.uol.com.br/checkout/v2/donation.html" method="post">
+                        <input type="hidden" name="currency" value="BRL" />
+                        <input type="hidden" name="receiverEmail" value="leomestrex@gmail.com" />
+                        <input type="hidden" name="iot" value="button" />
+                        <input type="image" src="https://stc.pagseguro.uol.com.br/public/img/botoes/doacoes/209x48-doar-azul-assina.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
+                    </form>
                 </Tipo>
 
                 <Tipo theme={{ main: "var(--secondary)" }}>
@@ -35,6 +47,12 @@ export default function QuemSomos() {
                     <span>
                         Quer colaborar com uma instituição doando um serviço que você sabe fazer bem ou repassando conhecimentos?
                     </span>
+                    <form action="https://pagseguro.uol.com.br/checkout/v2/donation.html" method="post">
+                        <input type="hidden" name="currency" value="BRL" />
+                        <input type="hidden" name="receiverEmail" value="leomestrex@gmail.com" />
+                        <input type="hidden" name="iot" value="button" />
+                        <input type="image" src="https://stc.pagseguro.uol.com.br/public/img/botoes/doacoes/209x48-doar-azul-assina.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
+                    </form>
                 </Tipo>
             </Apad>
         </>

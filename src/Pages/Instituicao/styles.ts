@@ -84,4 +84,9 @@ export const  Tipo = styled.div`
         text-align: center;
         margin: 0 4rem;
     }
+
+    form {
+        text-decoration: none;
+        background-color: none;
+    }
 `
