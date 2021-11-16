@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import inst from "../../assets/inst.jpg";
+import familia from "../../assets/familia.jpg";
 
 export const Container = styled.div`
   height: 100%;
@@ -13,7 +13,7 @@ export const Container = styled.div`
     width: 45vw;
     height: 35rem;
 
-    background-image: url(${inst});
+    background-image: url(${familia});
     opacity: 0.85;
     /* background-color: var(--primary-darker); */
     display: flex;
